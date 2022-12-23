@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Web multimedia application</title>
+    <link rel="shortcut icon" href="#" />
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+            integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+            crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="img-slider">
+        <div class="slide active">
+            <img src="images/ha-long-bay.jpg" alt="">
+            <div class="info">
+                <h2>Slide 01</h2>
+                <p>Ha Long Bay - Viet Nam</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="images/iguazu.jpg" alt="">
+            <div class="info">
+                <h2>Slide 02</h2>
+                <p>Iguazu Fall - Argentina</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="images/jeju-island.jpg" alt="">
+            <div class="info">
+                <h2>Slide 03</h2>
+                <p>Jeju Island - South Korea</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="images/pymarid-giza.jpg" alt="">
+            <div class="info">
+                <h2>Slide 04</h2>
+                <p>Pymarid Giza - Egypt</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="images/table-mountain.jpg" alt="">
+            <div class="info">
+                <h2>Slide 05</h2>
+                <p>Table Mountain - South Africa</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="images/Church.jpg" alt="">
+            <div class="info">
+                <h2>Slide 06</h2>
+                <p>Church Of The Savior On Blood - Russia</p>
+            </div>
+        </div>
+        <div class="navigation">
+            <div class="btn active"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+        </div>
+    </div>
+    <div class="music-content">
+        <section class="music-content-box">
+            <div class="content-wrapper">
+                <div class="info-song">
+                    <p class="song-name">Fur Elise</p>
+                    <p class="singer">Beethoven</p>
+                    <div class="song-footer">
+                        <button class="back">
+                            <i class="fas fa-step-backward"></i>
+                        </button>
+                        <button class="play-song">
+                            <i class="fas fa-play"></i>
+                        </button>
+                        <button class="forward">
+                            <i class="fas fa-step-forward"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <audio src="music/Fur_Elise.mp3" id="audio"></audio>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

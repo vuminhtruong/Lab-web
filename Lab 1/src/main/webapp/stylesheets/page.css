@@ -1,0 +1,147 @@
+h1 {
+    text-align: center;
+    margin-top: 5px;
+    color: brown;
+}
+
+.x-buttons{
+    padding: 0;
+}
+.x-buttons input{
+    width: 100px;
+    background-color: #F76161;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#result {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin: 50px auto 120px;
+}
+
+#result td, #result th {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#result tr:nth-child(even){background-color: #f2f2f2;}
+
+#result tr:hover {background-color: #ddd;}
+
+#result th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+}
+
+table{
+    width: 100%;
+    border-spacing: 25px;
+    text-align: center;
+    padding: 100px;
+}
+
+.student{
+    width: 100%;
+    font-size: 20px;
+    position: fixed;
+    color: white;
+    padding-left: 35%;
+    background-color: #000000;
+    left: 0;
+    top: 0;
+}
+
+.x-buttons{
+    width: 10%;!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+i{
+    color: aqua;
+}
+
+form {
+    background: white;
+    width: 470px;
+    margin: 10px auto 5px;
+    padding: 80px 30px 30px;
+}
+
+#canvas {
+    background-color:#ffffff;
+}
+
+p {
+    color: #B4886B;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input{
+    width: 150px;
+}
+h4{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+select{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: cornsilk;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #E0FFFF;
+}
+
+h4{
+    color: #4a90e2;
+    font-size: 30px;
+    margin: 0 0 40px;
+}
+
+input[type="text"]{
+    font: 15px/24px 'Muli', sans-serif;
+    color: #333;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+input[type="text"]:hover{
+    background-color: cornsilk;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 0;
+    line-height: 40px;
+    background-color: #4CAF50;
+    color: white;
+    border-width: 0;
+    font-size: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+

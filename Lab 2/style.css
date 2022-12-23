@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1D212B;
+}
+
+.img-slider{
+    position: relative;
+    width: 1000px;
+    height: 700px;
+    margin: 20px;
+    background: #1D212B;
+}
+
+.img-slider .slide{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    clip-path: inset(0 100% 0 0);
+}
+
+.img-slider .slide.active{
+    clip-path: inset(0 0 0 0);
+    transition: 1s;
+    transition-property: clip-path;
+}
+
+.img-slider .slide img{
+    z-index: 1;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.img-slider .slide .info{
+    position: absolute;
+    top: 0;
+    padding: 15px 30px;
+}
+
+.img-slider .slide .info h2{
+    color: #FFF;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.img-slider .slide .info p{
+    color: #FFFFFF;
+    background: rgba(0,0,0,0.7);
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.img-slider .navigation{
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    bottom: 20%;
+    left: 45%;
+    transform: translateX(-50px);
+}
+
+.img-slider .navigation .btn{
+    background: rgba(255,255,255,0.5);
+    width: 12px;
+    height: 12px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.img-slider .navigation .btn.active{
+    background: yellow;
+}
+
+.music-content {
+    position: fixed;
+    margin-top: 40%;
+    background: #0f0f11;
+    min-height: 20vh;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.info-song {
+    text-align: center;
+}
+.song-name {
+    color: #7EC8E3;
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+
+.info-song .singer {
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    color: #8b4513;
+}
+
+.song-footer {
+    padding: 20px 0 20px 0;
+}
+.back,
+.forward {
+    border-radius: 50%;
+    width: 4rem;
+    color: #72646f;
+    height: 4rem;
+    font-size: 1.8rem;
+}
+
+.play-song {
+    width: 5.5rem;
+    height: 5.5rem;
+    margin: 0 2rem;
+    background: #ffffff;
+    color: #736570;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgb(236, 186, 186);
+}
+i {
+    pointer-events: none;
+}
+.play-song i {
+    font-size: 1.8rem;
+}
+.play-song i.fa-play {
+    margin-left: 5px;
+}
+
+.logo {
+    margin: 5px;
+    border-radius: 30px;
+}
+
+.logo:first-child, :not(.logo) + .logo {
+    margin-left: 120px;
+}
